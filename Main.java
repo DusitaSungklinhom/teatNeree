@@ -10,3 +10,4 @@ public class Main {
         System.out.print(emp1.salary);
     }
 }
+//การบ้าน สร้าง object 5 object ให้ค่าแตกต่างกัน 

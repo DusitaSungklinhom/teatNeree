@@ -3,7 +3,13 @@ public class Employees {
     private String name;
     private String id;
     private Double salary;
-    
+
+    //static attribute
+    static int maxSalary = 2000;
+    //static method
+    static void company(){
+        System.out.println("Neree company");
+    }
     //Default Constructor
     public Employees(String id,String name,double salary){
         this.id = id;

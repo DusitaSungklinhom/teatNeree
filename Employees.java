@@ -11,6 +11,9 @@ public class Employees {
         System.out.println("Neree company");
     }
     //Default Constructor
+    public Employees() {
+
+    }
     public Employees(String id,String name,double salary){
         this.id = id;
         this.name = name;
